@@ -10,6 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    color: #d9d9d9;
 }
 
 
@@ -227,14 +228,6 @@ h1{
 
 
 
-/* .side-bar{ 
-    width: 50px;
-    height: 100vh;
-    background: linear-gradient(#00545d, #000729);
-    position: absolute;
-    right: 0;
-    top: 0;
-}*/
 
 .bubbles img{
     width: 50px;
@@ -305,7 +298,8 @@ h1{
 
 /* Header */
 
-header{
+.banner-header 
+{
     position: absolute;
     top: 0;
     left:0;
@@ -317,18 +311,18 @@ header{
     z-index: 1000;
 }
 
-header .logo
+.banner-header   .logo
 {
     max-width: 120px;
 }
 
-header .logo img,
-header .video-toggler img
+.banner-header  .logo img,
+.banner-header   .video-toggler img
 {
     max-width: 100%;
 }
 
-header .video-toggler
+.banner-header   .video-toggler
 {
     max-width: 60px;
     cursor: pointer;
@@ -336,7 +330,7 @@ header .video-toggler
 /* Banner Starts here: */
 
 .banner {
-    position: absolute;
+    position: relative;
     width: 100%;
     min-height: 100vh;
     padding: 0 100px;
@@ -480,11 +474,6 @@ header .video-toggler
     outline: none;
 }
 
-/* .trailer video
-{
-    max-width: 900px;
-    outline: none;
-} */
 
 .trailer .close
 {
@@ -499,19 +488,18 @@ header .video-toggler
 
 @media (max-width:991px)
 {
-    header 
+    .banner-header    {
+        padding: 20px 50px;
+    }
+    .banner-header   
     {
         padding: 20px 50px;
     }
-    header 
-    {
-        padding: 20px 50px;
-    }
-    header .logo 
+    .banner-header .logo 
     {
         max-width: 80px;
     }
-    header .video-toggler
+    .banner-header .video-toggler
     {
         max-width: 40px;
     }
@@ -560,4 +548,72 @@ header .video-toggler
         max-width: 90%;
         outline: none;
     }
+
+   
+
+}
+
+footer 
+{
+    
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+   
+}
+
+.mf-content 
+{
+    display: flex;
+}
+
+.mf-content .box 
+{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2 
+{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .f-content 
+{
+    margin: 20px 0 0 0;
+}
+
+.left .f-content p 
+{
+    text-align: justify;
+}
+
+.left .f-content .footer-social
+{
+    margin: 20px 0 0 0;
+}
+
+.left .f-content .footer-social a
+{
+    padding: 0 2px;
+}
+
+.left .f-content .footer-social a span 
+{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.left .f-content .footer-social a span:hover 
+{
+    background: #f12020;
 }

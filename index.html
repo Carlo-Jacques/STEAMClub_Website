@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Technology Club</title>
     <link rel="stylesheet"  href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
 <body>
     <div class="hero">
         <div class="menu-wrap">
@@ -28,15 +30,7 @@
             <h1>World's</h1>
             <div class="typing-effect"><h1>Creative Club</h1></div>
             </div>
-
-
         </header>
-
-        
-       <!-- <div class="side-bar">
-
-        </div>--> 
-
         <div class="bubbles">
             <img src="img/bubble.png">
             <img src="img/bubble.png">
@@ -46,17 +40,15 @@
             <img src="img/bubble.png">
             <img src="img/bubble.png">
         </div>
-    </div>
-
-    
-
-
+    </div> 
+    <!-- parallex effect -->
     <div class="hero"></div>
+
     <div class="banner">
-        <header>
+        <div class="banner-header">
             <a href="#" class="logo"><img src="img/logo.png"></a>
             <div class="video-toggler"><img src="img/toggle.png"></div>
-        </header>
+        </div>
         <div class="video-content">
             <h2>Envision Smart Cane Project</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque veritatis ea reiciendis vitae quaerat dolorem eius delectus, voluptatibus omnis quod repellendus unde laboriosam.</p>
@@ -70,10 +62,62 @@
         </div>    
     </div>
     <div class="trailer">
-        <!-- <video src="https://youtu.be/t-e80RSh8_0" controls="true"></video> -->
         <iframe width="560" height="315" src="https://www.youtube.com/embed/t-e80RSh8_0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <img src="img/close.png" class="close"  onclick="toggle();">
     </div>
+
+    <div class="hero"></div>
+
+    <footer>
+        <div class="mf-content">
+            <div class="left box">
+                <h2>About us</h2>
+                <div class="f-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, atque. Officia, obcaecati quo. Harum, dolore!</p>
+                    <div class="footer-social">
+                        <a href="#"><span class="fab fa-facebook-f"></span></a>
+                        <a href="#"><span class="fab fa-twitter"></span></a>
+                        <a href="#"><span class="fab fa-instagram"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="center box">
+                <h2>Address</h2>
+                <div class="f-content">
+                    <div class="place">
+                        <span class="fas fa-map-marker-alt"></span>
+                        <span class="text">Birendrenagar, Surkhet</span>
+                    </div>
+                    <div class="phone">
+                        <span class="fas fa-phone-alt"></span>
+                        <span class="text">+089-765432100</span>
+                    </div>
+                    <div class="email">
+                        <span class="fas fa-envelope"></span>
+                        <span class="text">abc@example.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="right box">
+                <h2>Contact Us</h2>
+                <div class="f-content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Email *</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Message *</div>
+                            <textarea  cols="25" rows="2" required></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script type="text/javascript">
     function toggle(){
         var trailer = document.querySelector('.trailer');
