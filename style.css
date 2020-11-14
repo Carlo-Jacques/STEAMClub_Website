@@ -13,9 +13,15 @@
     color: #d9d9d9;
 }
 
+/* html,body 
+{
+    display: grid;
+    height: 100%;
+    place-items: center;
+} */
 
 
-
+/* Showcase */
 .hero {
     width: 100%;
     height: 100vh;
@@ -198,10 +204,11 @@
 h1{
     font-size: 80px;
     margin: 10px 0 30px;
-    /* line-height: 80px; */
+    line-height: 80px;
     line-height: 1.2em;
 }
 
+/* Typing effect */
 .typing-effect{
     border-right: 2px solid;
     width: 58ch;
@@ -225,9 +232,7 @@ h1{
 }
 
 
-
-
-
+/* Bubbles effect */
 
 .bubbles img{
     width: 50px;
@@ -296,7 +301,7 @@ h1{
     width: 35px;
 }
 
-/* Header */
+/* Banner Header */
 
 .banner-header 
 {
@@ -552,7 +557,120 @@ h1{
    
 
 }
+/* Testimonials */
+.testimonials-section 
+{
 
+    width: 100%;
+    height: 100vh;
+    padding: 0 20px;
+    background-image: url('img/jellyfish.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.testimonials-box p 
+{
+    color: black;
+}
+
+.testimonials-content .name
+{
+    color: black;
+}
+
+.testimonials-section .testimonials-box 
+{
+    background: #fff;
+    margin: 13px;
+    border-radius: 3px;
+    padding: 50px;
+    width: calc(32% - 10px);
+    
+}
+
+.testimonials-section .testimonials-box i.quote 
+{
+    font-size: 20px;
+    color: #17a2b8;
+}
+
+.testimonials-section .testimonials-box .testimonials-content 
+{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testimonials-section .testimonials-box .info .name
+{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.testimonials-section .testimonials-box .info .job
+{
+    color: #17a2b8;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.testimonials-section .testimonials-box .info .stars 
+{
+    margin-top: 2px;
+}
+
+.testimonials-box .info .stars i
+{
+    color: #17a2b8;
+}
+
+/* .Testimonials-Section .testimonials-box .testimonial-content .picture 
+{
+    height: 75px;
+    width: 75px;
+    padding: 3px;
+    background: #17a2b8;
+    border-radius: 50%;
+} */
+
+/* .testimonials-section .testimonials-box .testimonials-content .picture img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+} */
+
+@media (max-width: 1045px)
+{
+    .testimonials-section .testimonials-box 
+    {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 702px)
+{
+    .testimonials-section .testimonials-box 
+    {
+        width: 100%;
+    }
+}
+
+
+/* Footer */
 footer 
 {
     
