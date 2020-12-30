@@ -1,0 +1,18 @@
+## FAQs
+***
+A list of frequently asked questions
+1. **What is the purpose of this website**
+It serves as a club portfolio
+2. **How will it be used?**
+Members will catolog projects and expirements to increase our social reach
+3. **Who has access to edit this website?**
+Active members, advisors, and alumni
+4. **What is left to do on the website?**
+Add team.html to the menu.
+Beyond being a technology project, this is also an art project. So it's up to the club
+
+
+
+* Have fun!
+* Do your best!
+* Any questions you may have, ASK!
